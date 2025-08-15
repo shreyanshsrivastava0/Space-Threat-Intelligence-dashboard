@@ -60,7 +60,8 @@ Version Control: Git & GitHub
 ---
 📸 Video :
 
-<video controls src="/video.mp4" title="Title"></video>
+[🎥 Watch the demo](https://raw.githubusercontent.com/USERNAME/REPO/main/video.mp4)
+
 
 📸 Screenshots :
 
