@@ -58,8 +58,12 @@ Version Control: Git & GitHub
 └── README.md                  # Project documentation
 
 ---
+📸 Video :
+
+<video controls src="WhatsApp Video 2025-08-16 at 00.31.20_ae3e60bf.mp4" title="Title"></video>
 
 📸 Screenshots :
+
 ![alt text](<Screenshot 2025-08-16 003552-1.png>)
 
 ![alt text](<Screenshot 2025-08-16 003615.png>)
