@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Threat Intelligence</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=page_control" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="threat.css">
+</head>
+<body>
+     <!-- Navigation -->
+    <nav>
+        <div class="logo">🚀 Space Threat Intelligence</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/insights">Insights</a></li>
+        </ul>
+    </nav>
+     
+   <!-- on click .nav -->
+     <div id="hemispherenav">
+        <a href="/" class="nav-btn">Home</a> 
+       <a href="/insights" class="nav-btn">Insights</a> 
+    </div>
+
+    <div id="top">
+        <section class="intro">
+            <div class="navm">
+                <span class="nav"><a href= "#"><img src="icon.png" alt="Icon" ></img></a></span>
+                <h1>Live Space Threat Map </h1>
+            </div>
+                <div id="map"></div>
+
+                 <!-- Floating Control Panel -->
+
+                 
+            <section id="dashboard" class="dashboard">
+            <div class="rd" id="live-updates">
+                <h2>📡 Live Updates</h2>
+                <div class="rd-content">
+                    <ul id="updates-list">
+                        <li>Loading latest updates...</li>
+                    </ul>
+                </div>
+            </div>
+
+    <div class="rd" id="satellite-status">
+        <h2>🛰 Satellite Status</h2>
+        <div class="rd-content" id="satellite-list">
+            <p>Loading satellite data...</p>
+        </div>
+    </div>
+
+    <div class="rd" id="risk-analysis">
+        <h2>⚠ Risk Analysis</h2>
+        <div class="rd-content" id="risk-summary">
+            <p>Loading risk assessment...</p>
+        </div>
+    </div>
+</section>
+
+        </section>
+    </div>
+      <div class="bottom">
+        
+          <!-- Hero Section -->
+          <section class="hero">
+              <h1>Real-Time Space Threat Monitoring</h1>
+              <p>Track and visualize satellite-debris collision risks in real time.</p>
+        <a href="/insights" class="cta-btn">View Insights</a>
+    </section>
+    
+    <!-- Features -->
+    <section class="features">
+        <div class="card">
+        <div class="feature-card">
+            <h3>🌍 Live Tracking</h3>
+            <p>Get up-to-date collision risk data from satellites and debris.</p>
+        </div>
+    </div>
+    <div class="card"> 
+        <div class="feature-card">
+            <h3>📊 Data Insights</h3>
+            <p>Analyze patterns using AI-powered charts and predictions.</p>
+        </div>
+    </div>
+       
+    <div class="card">
+         <div class="feature-card">
+            <h3>⚠ Alerts</h3>
+            <p>Receive real-time alerts when risks cross critical thresholds.</p>
+        </div>
+    </div>
+       
+    </section>
+     
+</div> 
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/script.js"></script>
+<script src="/threat.js"></script>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Space Threat Intelligence | All Rights Reserved</p>
+        <h5> Developed By: <b>Shreyansh Srivastava</b>  </h5>
+        <h5> Contact : <a href="https://www.linkedin.com/in/shreyansh-srivastava-a069bb286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" id="footerid"> linkedin </a></h5>
+    </footer>
+  
+</body>
+</html>
