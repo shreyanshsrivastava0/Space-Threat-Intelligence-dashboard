@@ -60,7 +60,8 @@ Version Control: Git & GitHub
 ---
 📸 Video :
 
-<video controls src="/video.mp4" title="Title"></video>
+<video src="space/video.mp4" controls></video>
+
 
 📸 Screenshots :
 
