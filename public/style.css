@@ -16,13 +16,16 @@ body {
     max-width: 100%;
 }
 
+.text{
+    text-align: center;
+}
 /* Navigation */
 nav {
     display: flex;
     justify-content:space-between;
     align-items: center; 
     padding: 15px 20px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(8, 8, 8, 0.6);
     flex-wrap: wrap;
 }
 
@@ -114,6 +117,8 @@ footer {
 #footerid {
     text-decoration: none;
     font-size: 18px;
+    color:white;
+    text-decoration: underline;
 }
 
 /* Responsive Layout */
@@ -139,7 +144,9 @@ footer {
         right: -280px;
         width :100px;
         height  :250px;
-        background : #222;
+        background : hsla(0, 2%, 23%, 0.353);
+        backdrop-filter: blur(8px);       
+        
         border-radius: 50% 0 0 50%;
         box-shadow: -3px 0 10px rgba(0, 0, 0, 0.7);
         padding: 20px;
@@ -156,7 +163,8 @@ footer {
         }
 
         .nav-btn{
-            background-color: #444;
+            background-color: #44444400;
+            backdrop-filter: blur(10px);
             text-decoration: none;
             border:none;
             color: white;
