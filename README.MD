@@ -60,7 +60,7 @@ Version Control: Git & GitHub
 ---
 📸 Video :
 
-<video controls src="WhatsApp Video 2025-08-16 at 00.31.20_ae3e60bf.mp4" title="Title"></video>
+<video controls src="video.mp4" title="Title"></video>
 
 📸 Screenshots :
 
