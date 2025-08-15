@@ -60,7 +60,7 @@ Version Control: Git & GitHub
 ---
 📸 Video :
 
-[🎥 Watch the demo](https://raw.githubusercontent.com/USERNAME/REPO/main/video.mp4)
+[🎥 Watch the demo](https://raw.githubusercontent.com/your-username/space-threat-intelligence-dashboard/main/public/video.mp4)
 
 
 📸 Screenshots :
