@@ -233,7 +233,7 @@ body, html {
 .graph-section {
     padding: 20px;
     min-height: 400px; /* ensures section is visible */
-    background-color: #cdced1; /* light background to see the chart */
+    background-color: #f6f6f6; /* light background to see the chart */
     
 }
 
