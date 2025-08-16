@@ -120,7 +120,10 @@ footer {
     color:white;
     text-decoration: underline;
 }
-
+.btn {
+   position:relative;
+    left: 300px;  
+}
 /* Responsive Layout */
 @media (max-width: 768px) {
     nav {
@@ -177,7 +180,11 @@ footer {
         .nav-btn :hover{
         background-color: #666;
         }
-
+        
+        .btn {
+            position: absolute;
+            left : 300px;
+        }
 
     nav ul {
         flex-direction: column;
@@ -223,6 +230,7 @@ footer {
     nav .logo {
         font-size: 1rem;
     }
+
 }
 body, html {
     margin: 0;
@@ -240,8 +248,4 @@ body, html {
 .graph-section h1{
     color:#a50b0b;
 }
-.btn {
-   position:relative;
-    left: 300px;
-    
-}
+
