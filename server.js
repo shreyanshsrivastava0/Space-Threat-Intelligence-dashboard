@@ -9,7 +9,7 @@ const { execFile } = require("child_process");
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
-const port = 8080;
+const port =  process.env.PORT || 8080;
 app.use(express.urlencoded({extended :true}));
 
 app.set("views",path.join(__dirname , "/views"));

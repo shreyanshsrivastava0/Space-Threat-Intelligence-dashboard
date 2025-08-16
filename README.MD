@@ -42,6 +42,7 @@ Version Control: Git & GitHub
 
 📂 Project Structure
 
+
 📦 space-threat-intelligence-dashboard/
 ├── node_modules/              # Dependencies
 ├── public/                    # Static assets (HTML, CSS, JS, images)
@@ -60,7 +61,7 @@ Version Control: Git & GitHub
 ---
 📸 Video :
 
-<video src="space/video.mp4" controls></video>
+[🎥 Watch the demo](https://raw.githubusercontent.com/shreyanshsrivastava0/Space-Threat-Intelligence-dashboard/main/video.mp4)
 
 
 📸 Screenshots :
