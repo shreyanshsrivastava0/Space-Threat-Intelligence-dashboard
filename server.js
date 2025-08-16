@@ -24,7 +24,7 @@ app.set("view engine","ejs");
 app.get("/insights", (req, res) => {
     // Example "live update counts"
     const threatCounts = [2, 1, 3, 0, 4];
-    execFile("python", [path.join(__dirname, "generate_graph.py"), JSON.stringify(threatCounts)], (err, stdout, stderr) => {
+    execFile("python3", [path.join(__dirname, "generate_graph.py"), JSON.stringify(threatCounts)], (err, stdout, stderr) => {
     if (err) {
         console.error("Python execFile error:", err);
         console.error("Python stderr:", stderr);
